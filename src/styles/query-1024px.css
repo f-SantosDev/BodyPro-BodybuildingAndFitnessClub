@@ -1,4 +1,3 @@
-
 @media only screen and (max-width: 1024px){
 
     /*  ABOUT SECTION  */
@@ -46,6 +45,20 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .membership__content__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+    }
+
+    .membership__form__login__container{
+        margin-top: 50px;
+        height: 100%;
+        width: 100%;
     }
 
     .membership__welcome__container{
