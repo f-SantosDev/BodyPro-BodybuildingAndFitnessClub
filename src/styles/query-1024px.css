@@ -53,6 +53,7 @@
         justify-content: center;
         align-items: center;
         height: 80%;
+        width: auto;
     }
 
     .membership__form__login__container{
