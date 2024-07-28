@@ -80,6 +80,11 @@
         transition: 1s;
     }
 
+    .membership__welcome__container .membership__welcome__message__container > p{
+        width: 100%;
+        text-align: center;
+    }
+
     .membership__welcome__message__container .hidden{
         display: none;
     }
