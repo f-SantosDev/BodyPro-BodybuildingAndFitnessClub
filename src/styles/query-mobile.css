@@ -1,11 +1,6 @@
 @media only screen and (max-width: 500px){
 
     /*  NUTRITION SECTION  */
-    .nutrition__info__container{
-        display: flex;
-        justify-content:center;
-    }
-
     .nutrition__info__container .hidden{
         display: none;
     }
