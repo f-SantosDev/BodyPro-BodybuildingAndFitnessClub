@@ -1,0 +1,175 @@
+.membership__container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    max-width: 100rem;
+    min-width: auto;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 1.25rem 0;
+    background-color: var(--secondary-color);
+    border-top: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    overflow: hidden;
+}
+
+.membership__form__login__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 25px;
+    border: 1px solid #ff0000;
+    max-height: 450px;
+    min-height: 450px;
+    min-width: 350px;
+    margin-right: 50px;
+    box-shadow: 0 0 0 7px rgba(0,0,0,.5);
+    z-index: 1;
+}
+
+.membership__text__login__container{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.membership__data__user__container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 280px;
+    margin-bottom: 60px;
+}
+
+.membership__form__input{
+    width: 100%;
+    height: 30px;
+    border-radius: 25px;
+    padding-left: 36px;
+    color: var(--primary-color);
+    background-color: transparent;
+}
+
+#email{
+    background-image: url('/src/img/user-regular-24.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 10px;
+    background-position-y: 5px;
+}
+
+#password{
+    background-image: url('/src/img/lock-regular-24.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position-x: 10px;
+    background-position-y: 5px;
+}
+
+.membership__login__set__preferences{
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+.membership__form__input__checkbox input:hover{
+    cursor: pointer;
+}
+
+.membership__login__set__preferences__link{
+    text-decoration: none;
+    font-style: italic;
+    margin-left: 30px;
+    color: #ffb612;
+}
+
+.membership__login__set__preferences__link:hover{
+    text-decoration: underline;
+    color: #ffb612;
+}
+
+.membership__arrow__left{
+    position: absolute;
+    top: 150px;
+    left: -200px;
+    width: 100%;
+    height: 110%;
+    border-right: 30px solid var(--primary-color);
+    border-bottom: 50px solid var(--primary-color);
+    border-radius: 5px;
+    transform: rotate(-60deg);
+    opacity: 0.3;
+    z-index: 0;
+    transform: 1s;
+}
+
+.membership__arrow__center{
+    position: absolute;
+    top: 130px;
+    left: -50px;
+    width: 100%;
+    height: 110%;
+    border-right: 70px solid var(--primary-color-red);
+    border-bottom: 90px solid var(--primary-color-red);
+    border-radius: 5px;
+    transform: rotate(-60deg);
+    opacity: 0.8;
+    z-index: 0;
+    transform: 1s;
+}
+
+.membership__arrow__right{
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    width: 100%;
+    height: 110%;
+    border-right: 10px solid var(--primary-color);
+    border-bottom: 20px solid var(--primary-color);
+    border-radius: 5px;
+    transform: rotate(-60deg);
+    opacity: 0.7;
+    z-index: 0;
+    transform: 1s;
+}
+
+.membership__welcome__container{
+    display: flex;
+    align-items: end;
+    height: 70vh;
+    width: auto;
+    margin-left: 120px;
+    z-index: 1;
+}
+
+.membership__welcome__message__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 330px;
+    height: 200px;
+    z-index: 1;
+    transition: 2.5s;
+}
+
+.membership__welcome__message__headling{
+    text-align: justify;
+    width: 100%;
+    height: auto;
+    font-size: 60px;
+    margin-bottom: 30px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--secondary-color);
+}
+
+.membership__welcome__message__text{
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.3;
+}

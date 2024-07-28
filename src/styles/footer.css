@@ -1,0 +1,41 @@
+.footer__container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100rem;
+  min-width: auto;
+  /*height: 170px;*/
+  height: 30vh;
+  margin: 0 auto;
+  padding: 0 0 1.25rem 3rem;
+  background-color: --back-ground-color;
+  border: 1px solid var(--primary-color);
+  overflow: hidden;
+}
+
+.footer__message__container{
+  padding-top: 30px;
+  font-size: 50px;
+  line-height: 1.1;
+  width: 30%;
+  height: auto;
+}
+
+.footer__copyright__container{
+  columns: f8fafc;
+  text-align: center;
+  line-height: 2;
+}
+
+.footer__copyright__container > span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 5px;
+}
+
+.footer__copyright__container > span svg{
+  width: 30px;
+  height: auto;
+}

@@ -1,0 +1,24 @@
+.home__container{
+  background-image: url('/src/img/home-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 15%;
+  background-position-x: 50%;
+  /*mix-blend-mode:luminosity;*/
+  min-width: auto;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100rem;
+}
+
+.slogan__container{
+  font-size: 2.5rem;
+  text-align: right;
+  margin: 0 2.1875rem 3.125rem 0;
+}
+
+
+

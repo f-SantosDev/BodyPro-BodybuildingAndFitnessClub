@@ -1,0 +1,35 @@
+@import url("class-default.css");
+@import url("home.css");
+@import url("header.css");
+@import url("side-bar-menu.css");
+@import url("about.css");
+@import url("events.css");
+@import url("membership.css");
+@import url("nutrition.css");
+@import url("footer.css");
+@import url("query-1024px.css");
+@import url("query-nutrition-section.css");
+@import url("query-footer-section.css");
+
+@import url('contact__container.css');
+
+
+:root{
+    --primary-color: #f8fafc;
+    --secondary-color: #0f172a;
+    --primary-color-red: #ff0000;
+    --secondary-color-red: #b91c1c;
+    /*--back-ground-color: #020617;*/
+    --back-ground-color: #000;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: 'DM Sans', sans-serif;
+    color: var(--primary-color);
+    background-color: var(--back-ground-color);
+}
+

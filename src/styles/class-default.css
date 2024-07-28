@@ -1,0 +1,66 @@
+/* FONTS AND COLORS DEUFAULT */
+
+.smooch-regular {
+    font-family: "Smooch", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.monoton-regular {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--primary-color-red);
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.outline__color{
+    color: var(--primary-color);
+    -webkit-text-stroke-width: 0.01875rem;
+    -webkit-text-stroke-color: #0000ff;
+}
+
+.outline__font__red__color{
+    color: var(--primary-color-red);
+    -webkit-text-stroke-width: 0.01875rem;
+    -webkit-text-stroke-color: b91c1c;
+}
+
+/*  DEFAUT BUTTONS */
+
+.button__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15.625rem;
+    height: 4.375rem;
+}
+
+.join__us__button{
+    text-align: center;
+    margin: 1.25rem 0 0.625rem 0;
+    padding: 0.625rem 1.25rem;
+    width: 100%;
+    border-radius: 1.5625rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    background-color: var(--primary-color-red);
+    box-shadow: 0 0.3125rem 0.3125rem var(--back-ground-color);
+    text-shadow: 0 0.125rem 0.3125rem var(--back-ground-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.join__us__button:hover{
+    background-color: var(--secondary-color-red);
+}
+
+.join__us__button:active{
+    margin: 22px 0 10px 2px;
+    box-shadow: 0 0 0 transparent;
+}

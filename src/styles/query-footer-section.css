@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1170px) {
+    /*  FOOTER SECTION  */
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        margin: 0 auto;
+    }
+
+    .footer__message__container{
+        width: 325PX;
+        height: auto;
+        transition: 1s;
+    }
+    
+    .footer__copyright__container{
+        padding: 0 20px 20px 0;
+    }
+}

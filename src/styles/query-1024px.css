@@ -1,0 +1,94 @@
+
+@media only screen and (max-width: 1024px){
+
+    /*  ABOUT SECTION  */
+    .about__container{
+        background-image: url('/src/img/Jay-Cutler.png');
+        background-repeat: no-repeat;
+        background-position-x: 95%;
+        background-size: contain;
+        transition: 1s;
+        background-color: var(--secondary-color);
+        border-top: 1px solid var(--primary-color);
+        border-bottom: 1px solid var(--primary-color);
+    }
+
+    .about__content__container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__img__container{
+        display: none;
+    }
+
+    .about__description__container{
+        width: 100%;
+        height: auto;
+    }
+
+    .about__description__container > h2{
+        line-height: 1.5;
+    }
+      
+    .about__description__text{
+        line-height: 1.3;
+        font-weight: 600;
+        color: var(--primary-color);
+    }
+
+    .about__description__text > span{
+        color: var(--primary-color-red);
+    }
+
+    /*  MEMBERSHIP SECTION  */
+    .membership__container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .membership__welcome__container{
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        line-height: 3;
+        margin-left: 0;
+    }
+
+    .membership__welcome__container .membership__welcome__message__container{
+        width: 55%;
+        height: 90px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+    }
+
+    .membership__welcome__message__container .hidden{
+        display: none;
+    }
+
+    .membership__welcome__message__text > a{
+        margin: 15px;
+    }
+
+    .hidden__arrow{
+        display: none;
+    }
+
+    /*  NUTRITION SECTION  */
+    .nutrition__banner__container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nutrition__banner__logo__container{
+        position: static;
+        font-size: 65px;
+        transition: 2s;
+        margin-left: 65px;
+    }
+}
