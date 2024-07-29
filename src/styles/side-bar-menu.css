@@ -8,43 +8,77 @@
 .menu__container{
     display: flex;
     flex-direction: column;
-    gap: 0.3125rem;
-    list-style: none;
-    background-color: rgba(0,0,0,0.5);
     padding: 0.3125rem 0.625rem 0.3125rem 0.625rem;
-    border-radius: 0.625rem;
-    transition: 0.3s;
 }
 
 .menu__item__container{
-    text-align: left;
-    margin: 0 0 0.625rem 0.3125rem;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 0.625rem 0.3125rem;
     font-size: 0;
-    height: 1.25rem;
+    width: 3.125rem;
+    height: 2.5rem;
+    background-color: rgba(0,0,0,0.5);
+    transition: 1s;
+    text-wrap: nowrap;
 }
 
 .menu__item__container:hover{
     font-size: 1rem;
-    transition: .5s;
+    height: 2.5rem;
+    transition: 1s;
+    border-top-right-radius: 0.125rem;
+    border-bottom-right-radius: 0.125rem;
+}
+
+.menu__item__container__border__top{
+    border-top-left-radius: 0.625rem !important; 
+    border-top-right-radius: 0.625rem !important;
+}
+
+.menu__item__container__border__bottom{
+    border-bottom-left-radius: 0.625rem !important;
+    border-bottom-right-radius: 0.625rem !important;
 }
 
 .menu__item__container > a{
     display: flex;
     align-items: center;
+    justify-content: center;
     color: var(--primary-color-red);
+    width: 100%;
+    height: auto;
 }
 
 .menu__item__container > a > svg{
-    width: 1.5rem;
+    width: 50%;
     height: auto;
     transition: 0.5s;
 }
 
-.menu__item__container > a > svg:hover{
-    width: 1.875rem;
+/* MENU ITENS */
+
+.menu__item__container__home:hover{
+    width: 3.9375rem;
 }
 
-.menu__item__container > a > span {
-    margin-left: 0.4375rem;
-    font-weight: bold;
+.menu__item__container__about:hover{
+    width: 4.375rem;
+}
+
+.menu__item__container__events:hover{
+    width: 4.375rem;
+}
+
+.menu__item__container__membership:hover{
+    width: 7.1875rem;
+}
+
+.menu__item__container__nutrition:hover{
+    width: 5.9375rem;
+}
+
+.menu__item__container__join_us:hover{
+    width: 4.375rem;
 }
