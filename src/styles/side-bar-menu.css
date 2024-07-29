@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .menu__container{
@@ -88,6 +88,10 @@
 }
 
 .contact__container{
+    margin-left: 0.9375rem;
+}
+
+.contact__container__link{
     margin-top: 50%;
     width: 2.1875rem;
     height: auto;
@@ -97,6 +101,11 @@
     z-index: 2;
 }
 
-.contact__container:hover{
+.contact__container__link:hover{
     width: 2.5rem;
+}
+
+
+.teste{
+    margin-left: 0.9375rem;
 }
