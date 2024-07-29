@@ -43,7 +43,8 @@
   left: 37%;
   padding-top: 0.625rem;
   gap: 0.625rem;
-  width: 27.5rem;
+  width: 100%;
+  height: auto; 
   z-index: 3;
   transition: 2s;
 }
