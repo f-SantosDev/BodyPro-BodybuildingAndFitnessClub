@@ -51,6 +51,11 @@
 }
 
 @media only screen and (max-height: 400px){
+    .nutrition__banner__container{
+        align-items: flex-start;
+        padding-top: 0.625rem;
+    }
+    
     .nutrition__banner__logo__container > p{
         display: none;
     }
