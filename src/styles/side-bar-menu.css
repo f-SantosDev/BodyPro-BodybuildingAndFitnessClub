@@ -1,7 +1,7 @@
 .nav__container{
     position: fixed;
-    left: 0.3125rem;
-    top: 11.25em;
+    left: 0.5%;
+    top: 20%;
     z-index: 99;
 }
 
