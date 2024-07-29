@@ -72,8 +72,7 @@
     }
 }
 
-
-@media only screen and (max-height: 453px){
+@media only screen and (max-height: 560px){
     .nutrition__banner__logo__container > p{
         display: none;
     }
