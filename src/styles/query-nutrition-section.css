@@ -2,7 +2,7 @@
     /*  NUTRITION SECTION  */
     .nutrition__info__container{
         display: flex;
-        justify-content:center;
+        justify-content: center;
     }
 
     .nutrition__info__container .hidden__creatine{
