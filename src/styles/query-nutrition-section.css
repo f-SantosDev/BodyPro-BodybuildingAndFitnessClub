@@ -16,3 +16,42 @@
         display: none;
     }
 }
+
+@media only screen and (max-width: 500px){
+    /*  NUTRITION SECTION  */
+    .nutrition__info__container .hidden{
+        display: none;
+    }
+
+    .hidden__nutrition__card{
+        display: block;
+        display: flex;
+        align-items: center;
+        background-color: rgba(0,0,0,0.5);
+    }
+   
+    .nutrition__info__content__container > img{
+        width: 50%;
+        height: auto;
+        margin-top: 15px;
+        opacity: 0.9;
+    }
+
+    .nutrition__info__description__link__container{
+        color: var(--primary-color);
+    }
+
+    .nutrition__info__description__link__container > a{
+        color: var(--primary-color-red);
+    }
+
+    .nutrition__info__description__link__container > a:hover{
+        color: var(--primary-color);
+    }
+}
+
+@media only screen and (max-height: 400px){
+    .nutrition__banner__logo__container > p{
+        display: none;
+    }
+}
