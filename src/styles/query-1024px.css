@@ -28,6 +28,7 @@
     }
 
     .about__description__container > h2{
+        margin-top: 3.125rem;
         line-height: 1.5;
     }
       
@@ -99,6 +100,10 @@
     }
 
     /*  NUTRITION SECTION  */
+    .nutrition__beside__img__container{
+        right: 0;
+    }
+
     .nutrition__banner__container{
         display: flex;
         width: 100%;
