@@ -156,5 +156,5 @@
 }
 
 .event__link:hover{
-    color: var(--primary-color-red);
+    color: var(--primary-color-red) !important;
 }
