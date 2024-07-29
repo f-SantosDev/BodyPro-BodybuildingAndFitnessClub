@@ -2,6 +2,7 @@
     .footer__container{
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
         height: 70vh;
         margin: 0 auto;
     }
@@ -14,5 +15,16 @@
     
     .footer__copyright__container{
         padding: 0 1.25rem 1.25rem 0;
+    }
+}
+
+@media only screen and (max-width: 431px){
+    .footer__container{
+        display: flex;
+        justify-content:flex-start;
+    }
+
+    .footer__copyright__container > span, .hidden{
+        display: none;
     }
 }
