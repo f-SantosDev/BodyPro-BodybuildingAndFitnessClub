@@ -1,5 +1,4 @@
 @media only screen and (max-width: 500px){
-
     /*  NUTRITION SECTION  */
     .nutrition__info__container .hidden{
         display: none;
@@ -10,7 +9,6 @@
         display: flex;
         align-items: center;
         background-color: rgba(0,0,0,0.5);
-        
     }
    
     .nutrition__info__content__container > img{
