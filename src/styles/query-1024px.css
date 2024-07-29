@@ -111,4 +111,8 @@
         transition: 2s;
         margin-left: 4.0625rem;
     }
+
+    .nutrition__info__container{
+        margin: 40px 0;
+    }
 }
