@@ -11,9 +11,6 @@
 @import url("query-nutrition-section.css");
 @import url("query-footer-section.css");
 
-@import url('contact__container.css');
-
-
 :root{
     --primary-color: #f8fafc;
     --secondary-color: #0f172a;
