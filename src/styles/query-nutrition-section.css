@@ -15,6 +15,12 @@
     }
 }
 
+@media only screen and (max-width: 697px) {
+    .nutrition__beside__img{
+        opacity: 0.8;
+    }
+}
+
 @media only screen and (max-width: 500px){
     .nutrition__info__container .hidden{
         display: none;
@@ -48,15 +54,11 @@
 }
 
 @media only screen and (max-height: 400px){
-    .nutrition__beside__img__container{
-        right: 0;
-    }
-
     .nutrition__banner__container{
         align-items: flex-start;
         padding-top: 0.625rem;
     }
-    
+
     .nutrition__banner__logo__container > p{
         display: none;
     }
