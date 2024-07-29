@@ -5,10 +5,10 @@
   max-width: 100rem;
   min-width: auto;
   /*height: 170px;*/
-  height: 30vh;
+  height: auto;
   margin: 0 auto;
   padding: 0 0 1.25rem 3rem;
-  background-color: --back-ground-color;
+  background-color: var(--back-ground-color);
   border: 0.0625rem solid var(--primary-color);
   overflow: hidden;
 }
@@ -22,7 +22,7 @@
 }
 
 .footer__copyright__container{
-  columns: f8fafc;
+  color: var(--primary-color);
   text-align: center;
   line-height: 2;
 }
