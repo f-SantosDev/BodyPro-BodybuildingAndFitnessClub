@@ -30,7 +30,7 @@
     .nutrition__info__content__container > img{
         width: 50%;
         height: auto;
-        margin-top: 15px;
+        margin-top: 0.9375rem;
         opacity: 0.9;
     }
 
