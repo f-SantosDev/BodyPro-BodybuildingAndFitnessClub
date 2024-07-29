@@ -28,3 +28,17 @@ html, body{
     color: var(--primary-color);
     background-color: var(--back-ground-color);
 }
+
+body::-webkit-scrollbar {
+    width: 0.75rem;
+}
+  
+body::-webkit-scrollbar-track {
+    background: var(--secondary-color);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color-red);
+    border-radius: 1.25rem;
+    border: 0.1875rem solid var(--primary-color);
+}
