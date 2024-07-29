@@ -113,6 +113,7 @@
     }
 
     .nutrition__info__container{
-        margin: 40px 0;
+        display: flex;
+        align-items: flex-end;
     }
 }
