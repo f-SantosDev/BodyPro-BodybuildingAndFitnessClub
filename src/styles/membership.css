@@ -45,7 +45,7 @@
     width: 100%;
     height: auto;
     font-size: 3.75rem;
-    margin-bottom: 3.125rem;
+    margin-bottom: 1.875rem;
 }
 
 .membership__data__user__container{
@@ -53,7 +53,6 @@
     flex-direction: column;
     gap: 1.25rem;
     width: 17.5rem;
-    margin-bottom: 3.75rem;
 }
 
 .membership__form__input{
@@ -178,7 +177,7 @@
     -webkit-text-stroke-color: var(--secondary-color);
 }
 
-.membership__welcome__message__text{
+.membership__welcome__message__text {
     margin-bottom: 1.25rem;
     font-size: 0.875rem;
     line-height: 1.3;
