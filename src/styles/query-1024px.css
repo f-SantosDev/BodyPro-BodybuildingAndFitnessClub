@@ -1,5 +1,4 @@
 @media only screen and (max-width: 1024px){
-
     /*  ABOUT SECTION  */
     .about__container{
         background-image: url('/src/img/Jay-Cutler.png');
@@ -40,63 +39,6 @@
 
     .about__description__text > span{
         color: var(--primary-color-red);
-    }
-
-    /*  MEMBERSHIP SECTION  */
-    .membership__container{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .membership__content__container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 80%;
-        width: 60%;
-    }
-
-    .membership__form__login__container{
-        margin-top: 3.125rem;
-        height: 100%;
-        width: 100%;
-    }
-
-    .membership__welcome__container{
-        justify-content: center;
-        align-items: center;
-        height: auto;
-        width: 100%;
-        line-height: 3;
-        margin-left: 0;
-    }
-
-    .membership__welcome__container .membership__welcome__message__container{
-        width: 100%;
-        height: 5.625rem;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        transition: 1s;
-    }
-
-    .membership__welcome__container .membership__welcome__message__container > p{
-        width: 100%;
-        text-align: center;
-    }
-
-    .membership__welcome__message__container .hidden{
-        display: none;
-    }
-
-    .membership__welcome__message__text > a{
-        margin: 0.9375rem;
-    }
-
-    .hidden__arrow{
-        display: none;
     }
 
     /*  NUTRITION SECTION  */
